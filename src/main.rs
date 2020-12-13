@@ -1,6 +1,6 @@
-mod day_three;
+mod day_four;
 fn main() {
-    match day_three::solve("input.txt") {
+    match day_four::solve("input.txt") {
         Ok(result) => println!("Answer: {}", result),
         Err(e) => println!("Err: {}", e),
     }
